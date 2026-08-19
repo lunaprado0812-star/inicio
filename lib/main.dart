@@ -6,8 +6,8 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: 'TU_SUPABASE_URL',
-    publishableKey: 'TU_SUPABASE_PUBLISHABLE_KEY',
+    url: 'https://ydwbokzojcopdmfnpobx.supabase.co',
+    publishableKey: 'sb_publishable_JA_SK5fnPuZRyBwCsajkMw_Xbpl0hD5',
   );
 
   runApp(const MyApp());
